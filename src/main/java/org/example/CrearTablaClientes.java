@@ -14,6 +14,17 @@ public class CrearTablaClientes {
                      "telefono VARCHAR(15), " +
                      "fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP" +
                      ")";
+
+        String[] clientes = {
+                    "INSERT INTO clientes (nombre, email, telefono) VALUES ('Santiago Arias', 'santiago@email.com', '123456789')",
+                    "INSERT INTO clientes (nombre, email, telefono) VALUES ('Juan Pérez', 'juan@email.com', '987654321')",
+                    "INSERT INTO clientes (nombre, email, telefono) VALUES ('María López', 'maria@email.com', '456123789')",
+                    "INSERT INTO clientes (nombre, email, telefono) VALUES ('Carlos Gómez', 'carlos@email.com', '741852963')",
+                    "INSERT INTO clientes (nombre, email, telefono) VALUES ('Ana Torres', 'ana@email.com', '369258147')"
+                    };
+
+        System.out.println("5 clientes registrados exitosamente.");
+
     }
 
 }
